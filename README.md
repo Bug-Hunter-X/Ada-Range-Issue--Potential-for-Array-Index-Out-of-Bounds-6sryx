@@ -1,0 +1,1 @@
+This repository demonstrates a potential error in Ada code involving array indexing and subtypes. The example code iterates through an array, but due to the use of a subtype, there is a small chance of a runtime error if the array bounds are ever modified. The solution provides a more robust approach, ensuring index safety and avoiding potential exceptions. 
